@@ -1,0 +1,3 @@
+const C='ds-v1';self.addEventListener('install',e=>{self.skipWaiting();e.waitUntil(caches.open(C).then(c=>c.addAll(['./','index.html','config.json','manifest.webmanifest','assets/img/logo.svg','assets/img/logo-mark-badge.svg'])))});
+self.addEventListener('activate',e=>e.waitUntil(clients.claim()));
+self.addEventListener('fetch',e=>{if(e.request.method!='GET'||e.request.headers.get('range'))return;e.respondWith(fetch(e.request).then(r=>{if(r.ok&&new URL(e.request.url).origin==location.origin&&!/\.mp4$/.test(e.request.url)){const k=r.clone();caches.open(C).then(c=>c.put(e.request,k))}return r}).catch(()=>caches.match(e.request)))});

@@ -1,0 +1,37 @@
+{
+  "_note": "קובץ ההגדרות היחיד. לעדכון מחיר: לשנות את השדה price. אם price ריק (null) – יוצג 'מחיר בהתאמה אישית'.",
+  "whatsapp": "972506466300",
+  "phoneDisplay": "050-6466300",
+  "services": [
+    {"id":"games","icon":"🎮","title":"משחקים ממותגים לעסקים","desc":"משחק דיגיטלי עם המותג, המוצרים והדמויות שלכם – נפתח בלינק, עובד בטלפון ומחזיר לקוחות.","tiers":[{"name":"בסיסי","price":1200},{"name":"עם דמויות","price":2200},{"name":"פרימיום","price":4400}],"wa":"היי Double Shot! אשמח לשמוע על משחק ממותג לעסק שלי 🎮"},
+    {"id":"song","icon":"🎵","title":"שיר בהזמנה לאירוע","desc":"שיר מקורי עם השמות, הסיפורים והבדיחות הפנימיות שלכם – לחתונה, לבר/בת מצווה, ליום הולדת או לכל אירוע.","price":400,"priceFrom":true,"terms":"מקדמה ₪200 בביט · מסירה תוך 48 שעות","wa":"היי Double Shot! אשמח להזמין שיר בהזמנה לאירוע 🎵"},
+    {"id":"images","icon":"🖼️","title":"תמונות מעוצבות","desc":"יצירה ועריכה של תמונות מעוצבות – מתמונה רגילה לוויז׳ואל שנראה כמו שער של מגזין.","price":null,"wa":"היי Double Shot! אשמח להצעת מחיר לתמונות מעוצבות 🖼️"},
+    {"id":"video","icon":"🎬","title":"סרטונים לפי הזמנה","desc":"יש לכם רעיון? אנחנו הופכים אותו לסרטון – מהקונספט ועד הפריים האחרון.","price":null,"wa":"היי Double Shot! אשמח להצעת מחיר לסרטון לפי הזמנה 🎬"},
+    {"id":"showcase","icon":"✨","title":"סרטוני תצוגה","desc":"סרטון שמציג את המוצר או העסק שלכם במיטבו – לרשתות, לאתר ולקמפיינים.","price":null,"wa":"היי Double Shot! אשמח להצעת מחיר לסרטון תצוגה לעסק ✨"},
+    {"id":"greeting","icon":"💌","title":"סרטוני ברכה","desc":"ברכה אישית ומרגשת ליום הולדת, לחג או לאירוע – מהסוג ששומרים לתמיד.","price":null,"wa":"היי Double Shot! אשמח להצעת מחיר לסרטון ברכה 💌"},
+    {"id":"voice","icon":"🎙️","title":"שיבוטי קולות","desc":"קול מוכר שמקריא, מברך או שר – בבינה מלאכותית, ובהסכמת בעל הקול בלבד.","price":null,"wa":"היי Double Shot! אשמח לשמוע על שיבוט קול 🎙️"},
+    {"id":"clips","icon":"📀","title":"קליפים","desc":"קליפ מוזיקלי עם ויז׳ואל שמתאים לשיר ולאווירה – לאירוע, למתנה או למותג.","price":null,"wa":"היי Double Shot! אשמח להצעת מחיר לקליפ 📀"},
+    {"id":"more","icon":"💡","title":"ועוד…","desc":"יש לכם רעיון שלא מופיע כאן? ספרו לנו – ונבדוק יחד איך להגשים אותו.","price":null,"wa":"היי Double Shot! יש לי רעיון לתוכן ב-AI ואשמח לבדוק אם אפשר להגשים אותו 💡"}
+  ],
+  "samples": {
+    "games": [
+      {"title":"אפרתושקה","sub":"משחק ריצה וחגיגה לילדים – עם דמויות, שלבים ומוזיקה","img":"assets/img/g_efratushka.webp","url":"https://bensharafi7-sys.github.io/efratushka-game/","wa":"היי Double Shot! ראיתי את המשחק אפרתושקה ואשמח למשחק כזה 🎮"},
+      {"title":"מגדל אור","sub":"מבית מינימרקט אור – משחק ממותג לעסק","img":"assets/img/g_minimarket.webp","url":"https://bensharafi7-sys.github.io/minimarket-or/","wa":"היי Double Shot! ראיתי את המשחק מגדל אור של מינימרקט אור ואשמח למשחק ממותג לעסק שלי 🎮"}
+    ],
+    "songs": [
+      {"title":"Ace-Af – השיר מהטיזר","sub":"שיר מקורי שהופק עם AI","src":"assets/a/aceaf-song.mp3","img":"assets/a/aceaf-cover.jpg"},
+      {"title":"ג׳ינגל – מינימרקט אור","sub":"\"הכל קרוב, הכל באור\" – ג׳ינגל ממותג לעסק","src":"assets/a/minimarket-jingle.mp3","img":"assets/a/minimarket-cover.webp"}
+    ],
+    "videos": [
+      {"title":"Ace-Af – טיזר","sub":"טיזר קולנועי לשיר","src":"assets/v/aceaf.mp4","poster":"assets/v/aceaf.jpg"},
+      {"title":"מינימרקט אור – סרטון תצוגה","sub":"סרטון פרסומי לעסק","src":"assets/v/minimarket.mp4","poster":"assets/v/minimarket.jpg"},
+      {"title":"אפרתושקה – הקליפ","sub":"קליפ לדמות אפרתושקה","src":"assets/v/efratushka-clip.mp4","poster":"assets/v/efratushka-clip.jpg"},
+      {"title":"אפרתושקה – סרטון למשחק","sub":"סרטון קידום למשחק","src":"assets/v/efratushka-game.mp4","poster":"assets/v/efratushka-game.jpg"}
+    ],
+    "characters": [
+      {"title":"אפרתושקה","sub":"הכוכבת של המשחק","img":"assets/ch/front.webp"},
+      {"title":"זומי בומי","sub":"החבר המונפש של אפרתושקה","sprite":{"src":"assets/ch/z_celebrate.webp","fw":111,"fh":150,"n":24,"cols":12}},
+      {"title":"גנב הבלונים","sub":"הנבל החמוד מהמשחק","img":"assets/ch/thief.webp"}
+    ]
+  }
+}
