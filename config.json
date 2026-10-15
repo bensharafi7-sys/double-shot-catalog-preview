@@ -24,6 +24,8 @@
     ],
     "videos": [
       {"title":"Ace-Af – טיזר","sub":"טיזר קולנועי לשיר","src":"assets/v/aceaf.mp4","poster":"assets/v/aceaf.jpg"},
+      {"title":"פרסומת טובול","sub":"סרטון פרסומי","src":"assets/v/tubol.mp4","poster":"assets/v/tubol.jpg"},
+      {"title":"פרסומת בלדי","sub":"סרטון פרסומי","src":"assets/v/baladi.mp4","poster":"assets/v/baladi.jpg"},
       {"title":"מינימרקט אור – סרטון תצוגה","sub":"סרטון פרסומי לעסק","src":"assets/v/minimarket.mp4","poster":"assets/v/minimarket.jpg"},
       {"title":"אפרתושקה – הקליפ","sub":"קליפ לדמות אפרתושקה","src":"assets/v/efratushka-clip.mp4","poster":"assets/v/efratushka-clip.jpg"},
       {"title":"אפרתושקה – סרטון למשחק","sub":"סרטון קידום למשחק","src":"assets/v/efratushka-game.mp4","poster":"assets/v/efratushka-game.jpg"}
